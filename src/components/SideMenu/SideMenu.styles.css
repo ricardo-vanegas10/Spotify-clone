@@ -1,0 +1,128 @@
+/* .side__nav {
+
+  box-sizing: border-box;
+  background-color: black;
+  overflow: hidden;
+  position: relative;
+} */
+
+/* .logo__container {
+  display: flex;
+  height: 65px;
+  width: 100%;
+  padding: 0 24px;
+  box-sizing: border-box;
+} */
+
+.logo__container svg {
+  height: 40px;
+  color: white;
+}
+
+.menu__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.menu__wrapper .button--nav {
+  height: 40px;
+  padding: 0 24px;
+}
+
+.create__playlist .button__icon svg,
+.liked__songs .button__icon svg {
+  height: 12px;
+  width: 12px;
+}
+
+.menu__wrapper .create__playlist,
+.menu__wrapper .liked__songs {
+  opacity: 0.7;
+  color: white;
+}
+.menu__wrapper .create__playlist:hover,
+.menu__wrapper .liked__songs:hover {
+  opacity: 1;
+}
+
+.create__playlist .button__icon {
+  /* background-color: white; */
+  fill: white;
+}
+
+/* .liked__songs .button__icon {
+  background: linear-gradient(135deg, #450af5, #c4efd9);
+  fill: white;
+} */
+
+.divider--top {
+  padding-top: 24px;
+}
+
+.divider--bottom--line {
+  padding-bottom: 10px;
+  margin: 0 24px;
+  border-bottom: 1px solid #282828;
+}
+
+.cover__side {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+}
+
+.cover__side--wrapper {
+  width: 100%;
+  position: relative;
+  display: flex;
+  transform: translateY(calc(100% + 1px));
+  transition: transform 0.3s ease;
+}
+
+.cover__side--wrapper--open {
+  transform: translateY(0);
+}
+
+.cover__side--wrapper img {
+  width: 100%;
+}
+
+.cover__side--wrapper .expand__cover--side {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: 5px;
+  right: 5px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.cover__side--wrapper:hover .expand__cover--side {
+  opacity: 1;
+  visibility: inherit;
+}
+
+.cover__side--wrapper .expand__cover--side svg {
+  transform: rotate(-90deg);
+}
+
+.cover__side--wrapper .expand__cover--side:hover {
+  transform: scale(1.1);
+}
+
+/* .userPlaylist__nav {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+} */
+
+.userPlaylist__nav a {
+  height: 40px;
+}
+
+.userPlaylist__nav span {
+  margin: 20px 0;
+}
+
